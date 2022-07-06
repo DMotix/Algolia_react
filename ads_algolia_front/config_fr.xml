@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ads_algolia_front</name>
+	<displayName><![CDATA[[ADS] Algolia front search with Reactjs]]></displayName>
+	<version><![CDATA[2.0]]></version>
+	<description><![CDATA[Affiche un search homepage et cr&eacute;e une page de recherche]]></description>
+	<author><![CDATA[Adstrategy]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

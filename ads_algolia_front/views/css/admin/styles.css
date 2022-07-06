@@ -1,0 +1,128 @@
+/*multiselect*/
+.multiselect {
+    height: 200px !important;
+}
+
+.ui-multiselect .search {
+    width: 200px !important;
+    float: left;
+    padding: 1px;
+    opacity: 0.7;
+    margin: 4px;
+    height: 21px !important;
+}
+
+#ads_af_seo_form .badge {
+    margin-right: .6em;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.bootstrap .tagify-container > input {
+    width: 245px !important;
+}
+
+/* Controller agl seo massive */
+.agl-short-code {
+    display: inline-block !important;
+    width: auto !important;
+    background: #ffe9f0 !important;
+    border: 1px dotted #fa5f93 !important;
+    color: #fa5f93 !important;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.short-code {
+    display: inline-block;
+    position: relative;
+}
+
+.short-code .agl-short-code {
+    cursor: pointer;
+    text-align: center;
+    width: auto !important;
+}
+
+.text-copy.copied {
+    -webkit-animation-name: copirun;
+    -webkit-animation-duration: 1s;
+    animation-name: copirun;
+    animation-duration: 1s;
+}
+
+@keyframes copirun {
+    0% {
+        opacity: 0;
+        right: -30px;
+        visibility: visible;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        right: 10px;
+        visibility: visible;
+    }
+}
+
+@-webkit-keyframes copirun {
+
+    0% {
+        opacity: 0;
+        right: -30px;
+        visibility: visible;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        right: 10px;
+        visibility: visible;
+    }
+}
+
+.text-copy {
+    background-color: #50db46;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 0 4px 1px;
+    position: absolute;
+    right: -30px;
+    top: 7px;
+}

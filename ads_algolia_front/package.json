@@ -1,0 +1,31 @@
+{
+  "name": "ads_algolia_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/js/components/src/main.js",
+  "scripts": {
+    "webpack": "webpack",
+    "build": "npx webpack-cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ion-rangeslider": "^2.2.0",
+    "lodash": "^4.17.5",
+    "react-custom-scrollbars": "^4.2.1",
+    "slugify": "^1.2.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.3.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.0.0"
+  }
+}
