@@ -1,0 +1,123 @@
+#algolia-settings h2{
+    margin-bottom: 50px;
+}
+#algolia-settings h3{
+    border-bottom: solid 1px #eee;
+    margin: 10px 0 !important;
+    font-size: 1.7em;
+}
+
+#algolia-settings .table-col-enabled {
+    width: 75px;
+}
+
+#algolia-settings #extra-metas-attributes tr td:nth-child(n+3),
+#algolia-settings #extra-metas-attributes tr th:nth-child(n+3),
+#algolia-settings #taxonomies tr td:nth-child(n+3),
+#algolia-settings #taxonomies tr th:nth-child(n+3)
+{
+    display: none;
+}
+
+#algolia-settings #extra-meta-and-taxonomies
+{
+    margin-bottom: 20px;
+}
+
+#algolia-settings #taxonomies tbody,
+#algolia-settings #extra-metas tbody,
+#algolia-settings #indexable-types tbody,
+#algolia-settings #custom-ranking tbody,
+#algolia-settings #searchable_attributes tbody,
+#algolia-settings #sortable_attributes tbody
+{
+    cursor: move;
+}
+
+#algolia-settings .ui-sortable-helper{
+    background: white;
+}
+
+#algolia-settings .no-screenshot
+{
+    height: 18px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+
+#algolia-settings .theme-browser .theme
+{
+    cursor: pointer;
+    float: left;
+    margin: 0 4% 10px 0;
+    position: relative;
+    /*width: 30.6%;*/
+    width: 140px;
+    border: 1px solid #dedede;
+}
+
+#algolia-settings .theme-browser .theme .theme-screenshot
+{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    width: 140px;
+}
+
+#algolia-settings .theme-browser .theme .theme-screenshot img
+{
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+#algolia-settings .theme-browser .theme .theme-name {
+    font-size: 13px;
+    font-weight: 600;
+    height: 45px;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #fff;
+    background: rgba(255,255,255,.65);
+}
+#algolia-settings .theme-browser .theme .theme-name input[type="radio"] {
+    margin-right: 5px;
+}
+
+#algolia-settings .theme-browser .theme .theme-screenshot:after {
+    content: '';
+    display: block;
+    padding-top: 66.66666%;
+}
+
+#algolia-search-prefix-table td {
+    padding: 0 4px;
+}
+#edit-search-prefix {
+    margin-left: 80px;
+}
+#facets-order-type {
+    width: 348px;
+}
+#new-search-term fieldset > label {
+    margin-top: 10px;
+}
+#new-term-title, #new-term-description {
+    margin-bottom: 5px;
+}
